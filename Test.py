@@ -4,9 +4,9 @@ prompt = name + " > "
 while 1:
     answer = input(prompt)
     if answer == "さよなら":
-        print("またね！")
+        print("AI > " + "またね！")
         break
     elif not answer:
         print("......")
         break
-    print("「{}」うんうん！".format(answer))
+    print("AI > " + "「{}」うんうん！".format(answer))
